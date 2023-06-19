@@ -23,7 +23,7 @@ public class Main {
             System.out.println("Введите дробное число: ");
             String input = scanner.nextLine();
             if (isNumeric(input)) { // если во вводе число цикл остановится
-                number = Float.parseFloat(input);git
+                number = Float.parseFloat(input);
                 break;
             } else if (input == "") { // пробросил трай кетч чтобы выполнение кода не прерывалось
                 try {
